@@ -9,6 +9,16 @@
             "mainClass": "com.facens.poo.sistema.SistemaApplication",
             "projectName": "sistema",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EmployeeApplication<employee>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.facens.poo.exercicio.employee.EmployeeApplication",
+            "projectName": "employee",
+            "args": ""
         }
     ]
 }
