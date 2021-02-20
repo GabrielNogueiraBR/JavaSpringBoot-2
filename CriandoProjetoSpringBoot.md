@@ -17,9 +17,10 @@ aula01-spring-boot
 * WAR -> quando precisamos criar um projeto completo e depois passar para um servidor externo ao nosso projeto Spring Boot
 * Especificar a versão do Java que iremos utilizar no projeto
 * No momento estamos utilizando a mais recente (14)
-* Selecionar as dependências do projeto:
-* Spring Boot DevTools
-* Spring Web
+* Selecionar as dependênciasThinkingV do projeto:
+    * Spring Boot DevTools
+    * Spring Web
+    * H2 Database
 * Selecionar a pasta onde será criado o projeto Maven
 * Selecionar Open no VS Code
 * Esperar carregar todo o projeto
