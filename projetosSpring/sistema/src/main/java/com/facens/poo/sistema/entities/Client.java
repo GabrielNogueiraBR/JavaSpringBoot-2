@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity // Informa para o Spring que esta Classe eh uma entidade no banco de dados
-@Table(name="TB_CLIENT") // Define o nome da tablea
+@Table(name="tb_client") // Define o nome da tablea
 public class Client implements Serializable {
     
     // O "Serializable" eh uma marcacao para indicar que esse objeto pode ser serializado e, assim, as informacoes sao passadas para o banco de dados
