@@ -18,7 +18,7 @@ public class ClientService {
 
     public List<ClientDTO> getClients(){
         
-        List<Client> list = repository.getClients();
+        List<Client> list = repository.findAll();
 
         List<ClientDTO> listDTO = new ArrayList<>();
 
