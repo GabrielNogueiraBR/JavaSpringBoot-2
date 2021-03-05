@@ -8,6 +8,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.facens.poo.sistema.dto.ClientInsertDTO;
+
 @Entity // Informa para o Spring que esta Classe eh uma entidade no banco de dados
 @Table(name="tb_client") // Define o nome da tablea
 public class Client implements Serializable {
@@ -60,7 +62,11 @@ public class Client implements Serializable {
     // Generate hashCode() and equals()
     // 
 
-    @Override
+    public Client(ClientInsertDTO dto) {
+	
+    }
+
+	@Override
     public int hashCode() {
         final int prime = 31;
         int result = 1;
